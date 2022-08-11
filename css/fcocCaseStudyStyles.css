@@ -179,6 +179,10 @@ hr {
     margin: 1.2rem 1.2rem 0;
 }
 
+.prototypeSubtitle {
+    margin: ;
+}
+
 #fcocPrototypeLinksContainer {
     background-color: #B1A79E;
 }
@@ -196,4 +200,32 @@ hr {
 /* Styles for FCOC Reflections Section */
 .fcocReflections p {
     margin: 1.2rem 0 0 0;
+}
+
+@media only screen and (max-width: 840px) {
+
+    .fcocBackground,
+    .fcocResearch,
+    .fcocDefinition,
+    .fcocIdeation,
+    .fcocPrototypes,
+    .fcocTesting,
+    .fcocReflections {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 841px) and (max-width: 1280px) {
+
+    .fcocBackground,
+    .fcocResearch,
+    .fcocDefinition,
+    .fcocIdeation,
+    .fcocPrototypes,
+    .fcocTesting,
+    .fcocReflections {
+        width: 75%;
+        margin: 0 auto;
+    }
 }

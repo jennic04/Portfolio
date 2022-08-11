@@ -258,7 +258,7 @@
 } */
 
 /* Styles for case study prototypes section */
-.prototypes h4 {
+.prototypeSubtitle {
     margin: 1.2rem 0 0 0;
 }
 
@@ -488,7 +488,7 @@
     .prototypes,
     .testing,
     .reflections {
-        width: 75%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -591,6 +591,17 @@
 }
 
 @media only screen and (min-width: 841px) and (max-width: 1280px) {
+
+    .background,
+    .research,
+    .definition,
+    .ideation,
+    .prototypes,
+    .testing,
+    .reflections {
+        width: 75%;
+        margin: 0 auto;
+    }
 
     .summary {
         /* border: 1px solid red; */

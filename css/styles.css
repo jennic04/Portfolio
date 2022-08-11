@@ -59,7 +59,7 @@ h5 {
 /* Media query for Small screen font size) */
 @media only screen and (max-width: 840px) {
     html {
-        font-size: 80%;
+        font-size: 85%;
     }
 
     h1 {
