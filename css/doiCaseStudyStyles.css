@@ -1,0 +1,683 @@
+/* Styles for DOI Case Study */
+.doiHead div {
+    background-color: #6A2355;
+    margin: 2.8rem 0 0 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doiHead img {
+    width: 71%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.doiHead h1 {
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.doiHead h4 {
+    text-align: center;
+    width: 65%;
+    margin: 0.8rem auto 0 auto;
+}
+
+
+/* Styles for Summary Section */
+.summary {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin: 3.3rem auto 0 auto;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.summary div {
+    /* border: 1px solid blue; */
+    width: 20%;
+    margin: 0 auto;
+}
+
+.summary h5 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.summary p {
+    margin: 0.6rem 0 0 0;
+}
+
+.title {
+    /* border: 1px solid red; */
+    margin: 2rem auto 0 auto;
+    /* width: 65%; */
+}
+
+.title h2 {
+    margin: 0 auto;
+}
+
+.decor {
+    width: 225px;
+    height: 24px;
+    background-color: #CBC5C0;
+    margin: -26px 0 0 28px;
+}
+
+.background,
+.research,
+.definition,
+.ideation,
+.prototypes,
+.testing,
+.reflections {
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* Styles for case study background section */
+.background p {
+    margin: 1.2rem 0 0 0;
+}
+
+/* Styles for case study research section */
+.research p {
+    margin: 1.2rem 0 0 0;
+}
+
+.research img {
+    display: block;
+    width: 38%;
+    height: auto;
+    margin: 0.8rem auto 0 auto;
+}
+
+.testingSummary {
+    display: grid;
+    background-color: #133853;
+    color: #efefef;
+    margin: 1.2rem auto 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    grid-template-areas:
+        "format objectives tasks";
+}
+
+#testFormat {
+    grid-area: format;
+    margin: 1.2rem 1.2rem 0.8rem;
+}
+
+#objectives {
+    grid-area: objectives;
+    margin: 1.2rem 1.2rem 0.8rem;
+}
+
+#userTasks {
+    grid-area: tasks;
+    margin: 1.2rem 1.2rem 0.8rem;
+}
+
+#formatTitle,
+#objectivesTitle,
+#tasksTitle {
+    margin: 0;
+}
+
+.testingSummary ul {
+    list-style: square outside;
+    padding: 0 0 0 1.2rem;
+}
+
+/* Styles for case study definition section */
+.definitionGrid {
+    /* border: 1px solid orange; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        "testingNotes analysisImage"
+        "navNotes navNotes";
+}
+
+#testingNotes {
+    grid-area: testingNotes;
+    margin: 0;
+}
+
+#analysisImage {
+    grid-area: analysisImage;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem 0 0 0;
+}
+
+#analysisImage img {
+    width: 90%;
+    height: auto;
+}
+
+#navNotes {
+    grid-area: navNotes;
+}
+
+.definition p {
+    margin: 1.2rem 0 0 0;
+}
+
+.definition ul {
+    /* border: 1px solid red; */
+    margin: 0;
+    list-style: square outside;
+    padding: 0 0 0 1.2rem;
+}
+
+.definition li {
+    padding: 0.5em 0;
+}
+
+/* Styles for case study ideation section */
+.ideation p {
+    margin: 1.2rem 0 0 0;
+}
+
+.ideationGrid {
+    /* border: 1px solid blue; */
+    display: grid;
+    margin: 0;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "para1 para1"
+        "image1 image1"
+        "para2 para2"
+        "image2 para3";
+}
+
+#ideationPara1 {
+    /* border: 1px solid green; */
+    grid-area: para1;
+}
+
+#cardSortImage {
+    width: 100%;
+    height: auto;
+    margin: 1.2rem 0 0 0;
+    grid-area: image1;
+    display: flex;
+    justify-content: center;
+}
+
+#ideationImage1 {
+    width: 90%;
+}
+
+/* #ideationImage1 {
+    border: 1px solid teal;
+    width: 100%;
+    height: auto;
+    margin: 1.2rem 0 0 0;
+    grid-area: image1;
+}*/
+
+#ideationPara2 {
+    /* border: 1px solid violet; */
+    grid-area: para2;
+}
+
+#ideationPara3 {
+    /* border: 1px solid cyan; */
+    grid-area: para3;
+}
+
+#sitemapImage {
+    width: 100%;
+    height: auto;
+    margin: 1.2rem auto 0 auto;
+    grid-area: image2;
+    display: flex;
+    justify-content: center;
+}
+
+#ideationImage2 {
+    width: 70%;
+}
+
+/* #ideationImage2 {
+    border: 1px solid blueviolet;
+    grid-area: image2;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 1.2rem auto 0 auto;
+} */
+
+/* Styles for case study prototypes section */
+.prototypes h4 {
+    margin: 1.2rem 0 0 0;
+}
+
+.prototypes p {
+    margin: 1.2rem 0 0 0;
+}
+
+.wireframeImages {
+    background-color: #133853;
+    margin: 1.2rem 0 0 0;
+    display: grid;
+    grid-template-columns: 37% 37% 26%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+        "wireframeHomepage desktopNav mobileNav";
+}
+
+#wireframeHomepage {
+    width: 95%;
+    grid-area: wireframeHomepage;
+    margin: 0.8rem 0.5rem;
+}
+
+#desktopNav {
+    width: 95%;
+    grid-area: desktopNav;
+    margin: 0.8rem 0.5rem;
+}
+
+#mobileNav {
+    width: 93%;
+    grid-area: mobileNav;
+    margin: 0.8rem 0.5rem;
+}
+
+.volunteerWireframes {
+    /* border: 1px solid green; */
+    width: 80%;
+    margin: 1.2rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#initialVolWireframe {
+    width: 45%;
+}
+
+#revVolWireframe {
+    width: 45%;
+}
+
+.hiFidelity {
+    /* border: 1px solid magenta; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 68% 32%;
+    grid-template-areas:
+        "para1 styletile"
+        "para2 para2";
+}
+
+#hiFiPara1 {
+    grid-area: para1;
+}
+
+#doiStyletile {
+    grid-area: styletile;
+    width: 97%;
+    height: auto;
+    margin: 1.2rem 0 0 auto;
+}
+
+#hiFiPara2 {
+    grid-area: para2;
+    /* margin: 16px 0 0 0; */
+}
+
+/* Styles for case study testing section */
+.testing p {
+    margin: 1.2rem 0 0 0;
+}
+
+.testingImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.testingImages img {
+    width: 49%;
+    height: auto;
+    margin: 1.2rem 0 0 0;
+}
+
+.prototypeLinks {
+    /* border: 1px solid slateblue; */
+    width: 89%;
+    margin: 1.2rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#prototypeLinksContainer {
+    background-color: #133853;
+}
+
+#prototypeLinksContainer a {
+    color: #efefef;
+    text-decoration: underline;
+}
+
+#mobilePrototype {
+    /* border: 1px solid navy; */
+    width: 22%;
+    margin: 0.8rem 0;
+}
+
+#desktopPrototype {
+    /* border: 1px solid darkorchid; */
+    width: 73.5%;
+    margin: 0.8rem 0;
+}
+
+#mobilePrototype img {
+    width: 98%;
+}
+
+#desktopPrototype img {
+    width: 100%;
+}
+
+#mobilePrototype figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#desktopPrototype figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* Styles for case study reflections section */
+.reflections p {
+    margin: 1.2rem 0 0 0;
+}
+
+.reflections ul {
+    /* border: 1px solid red; */
+    margin: 0;
+    list-style: square outside;
+    padding: 0 0 0 1.2rem;
+}
+
+.reflections li {
+    padding: 0.5em 0;
+}
+
+/* Media queries for alternate screen sizes */
+
+/* breakpoints for media queries chosen based on https://material.io/archive/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints */
+
+
+@media only screen and (max-width: 840px) {
+    .doiHead img {
+        width: 80%;
+        height: auto;
+    }
+
+    #scroll {
+        width: 44px;
+        height: 44px;
+    }
+
+    .summary {
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-rows: 66% 34%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "responsibilities timeline"
+            "collaborators deliverables";
+        margin: 3.3rem auto 0 auto;
+        width: 75%;
+    }
+
+    #doiResponsibilities {
+        grid-area: responsibilities;
+    }
+
+    #doiTimeline {
+        grid-area: timeline;
+    }
+
+    #doiCollaborators {
+        grid-area: collaborators;
+    }
+
+    #doiDeliverables {
+        grid-area: deliverables;
+    }
+
+    .summary div {
+        /* border: 1px solid blue; */
+        width: 100%;
+        margin: 0.4rem;
+    }
+
+    .title {
+        /* border: 1px solid red; */
+        margin: 2rem auto 0 auto;
+
+    }
+
+    .decor {
+        width: 150px;
+        height: 12px;
+        background-color: #B1A79E;
+        margin: -14px 0 0 14px;
+    }
+
+    .background,
+    .research,
+    .definition,
+    .ideation,
+    .prototypes,
+    .testing,
+    .reflections {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .research img {
+        width: 80%;
+        height: auto;
+    }
+
+    .testingSummary {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "format"
+            "objectives"
+            "tasks";
+    }
+
+    #testFormat {
+        margin: 1.2rem 1.2rem 0;
+    }
+
+    #objectives {
+        margin: 0 1.2rem;
+    }
+
+    #userTasks {
+        margin: 0 1.2rem 1.2rem;
+    }
+
+    #formatTitle,
+    #objectivesTitle,
+    #tasksTitle {
+        text-align: center;
+    }
+
+    .definitionGrid {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "testingNotes"
+            "analysisImage"
+            "navNotes";
+    }
+
+    #analysisImage {
+        /* display: block; */
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .ideationGrid {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "para1"
+            "image1"
+            "para2"
+            "image2"
+            "para3";
+    }
+
+    #ideationImage1,
+    #ideationImage2 {
+        margin: 0 auto;
+    }
+
+    .wireframeImages {
+        display: block;
+        text-align: center;
+    }
+
+    #desktopNav,
+    #mobileNav {
+        display: none;
+    }
+
+    #wireframeHomepage {
+        width: 50%;
+
+    }
+
+    .hiFidelity {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "styletile"
+            "para1"
+            "para2";
+    }
+
+    #doiStyletile {
+        display: block;
+        margin: 1.2rem auto 0;
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 841px) and (max-width: 1280px) {
+
+    .summary {
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-rows: 66% 34%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "responsibilities timeline"
+            "collaborators deliverables";
+        margin: 3.3rem auto 0 auto;
+        width: 65%;
+    }
+
+    #doiResponsibilities {
+        grid-area: responsibilities;
+    }
+
+    #doiTimeline {
+        grid-area: timeline;
+    }
+
+    #doiCollaborators {
+        grid-area: collaborators;
+    }
+
+    #doiDeliverables {
+        grid-area: deliverables;
+    }
+
+    .summary div {
+        /* border: 1px solid blue; */
+        width: 100%;
+        margin: 0.4rem;
+    }
+
+    .definitionGrid {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "testingNotes"
+            "analysisImage"
+            "navNotes";
+    }
+
+    #analysisImage {
+        display: block;
+        margin: 0.5rem auto 0;
+        width: 60%;
+        height: auto;
+    }
+
+    .ideationGrid {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "para1"
+            "image1"
+            "para2"
+            "image2"
+            "para3";
+    }
+
+    #ideationImage1 {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #ideationImage2 {
+        width: 65%;
+        height: auto;
+        margin: 0.5rem auto;
+    }
+
+    .hiFidelity {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "styletile"
+            "para1"
+            "para2";
+    }
+
+    #doiStyletile {
+        display: block;
+        margin: 1.2rem auto 0;
+        width: 65%;
+        height: auto;
+    }
+}

@@ -1,0 +1,199 @@
+/* Styles for FCOC Case Study */
+
+nav a:hover {
+    color: #201E1F;
+}
+
+.jumbotron {
+    background-color: #133853;
+    margin: 2.8rem 0 0 0;
+    border-radius: 0 !important;
+    padding: 2rem 0 !important;
+}
+
+#fcocHeroImage {
+    display: block;
+    width: 71%;
+    margin: 0 auto !important;
+}
+
+.fcocHead h1 {
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.fcocHead h4 {
+    text-align: center;
+    width: 65%;
+    margin: 0.8rem auto 0 auto;
+}
+
+.fcocSummary {
+    width: 65%;
+    margin: 3.3rem auto 0 auto;
+}
+
+.fcocSummary h5 {
+    text-decoration: underline;
+    margin: 0;
+}
+
+.fcocSummary p {
+    margin: 0.6rem 0 0 0;
+}
+
+/* Styles for FCOC Contents */
+.fcocContents {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.fcocContents h4 {
+    margin: 0;
+}
+
+.fcocContents ul {
+    margin: 0;
+}
+
+.fcocContents a {
+    color: #201E1F;
+}
+
+.fcocContents a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    color: #B1A79E;
+    width: 65%;
+}
+
+.fcocBackground,
+.fcocResearch,
+.fcocDefinition,
+.fcocIdeation,
+.fcocPrototypes,
+.fcocTesting,
+.fcocReflections {
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* Styles for FCOC Research Section */
+.fcocResearch p {
+    margin: 1.2rem 0 0 0;
+}
+
+.fcocResearch img {
+    display: block;
+    width: 69%;
+    height: auto;
+    margin: 0.8rem auto 0 auto;
+}
+
+/* Styles for FCOC Definition Section */
+.fcocDefinition img {
+    display: block;
+    width: 69%;
+    height: auto;
+    margin: 0.8rem auto 0 auto;
+}
+
+.fcocDefinition p {
+    margin: 1.2rem 0 0 0;
+}
+
+.fcocDefinition ul {
+    list-style: square outside;
+    padding: 0 0 0 1.2rem;
+}
+
+/* Styles for FCOC Ideation Section */
+
+.fcocIdeation .container {
+    padding: 0;
+}
+
+.fcocIdeation p {
+    margin: 1.2rem 0 0 0;
+}
+
+#fcocSitemapImage {
+    width: 100%;
+    margin: 1.2rem auto 0 auto;
+}
+
+#fcocUserFlow {
+    width: 100%;
+    margin: 1.2rem auto 0 auto;
+}
+
+/* Styles for FCOC Prototypes Section */
+
+.fcocPrototypes p {
+    margin: 1.2rem 0 0 0;
+}
+
+.carouselSection {
+    /* height: auto; */
+    margin: 1.2rem auto 0 auto;
+    padding: 1.2rem 0;
+    background-color: #B1A79E;
+}
+
+.carousel {
+    /* border: 1px solid orangered; */
+    width: 70%;
+    margin: 0 auto;
+    /* padding: 1.2rem 0; */
+}
+
+.carousel-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.formRevision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rsvpForm {
+    width: 25%;
+    height: auto;
+    margin: 1.2rem 1.2rem 0;
+}
+
+.confirmRevision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rsvpConfirm {
+    width: 25%;
+    height: auto;
+    margin: 1.2rem 1.2rem 0;
+}
+
+#fcocPrototypeLinksContainer {
+    background-color: #B1A79E;
+}
+
+#fcocPrototypeLinksContainer a {
+    color: #201E1F;
+    text-decoration: underline;
+}
+
+/* Styles for FCOC Testing Section */
+.fcocTesting p {
+    margin: 1.2rem 0 0 0;
+}
+
+/* Styles for FCOC Reflections Section */
+.fcocReflections p {
+    margin: 1.2rem 0 0 0;
+}

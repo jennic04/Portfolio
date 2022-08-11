@@ -1,0 +1,145 @@
+/* Styles for About page */
+.about {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin: 4rem auto 0 auto;
+}
+
+.aboutInfo {
+    width: 55%;
+    /* border: 1px dashed black; */
+}
+
+.about h3 {
+    /* border: 1px solid blue; */
+    margin: 0 0 0.8rem 0;
+}
+
+.about button {
+    background-color: #133853;
+    border: 0;
+    width: 155px;
+    color: #efefef;
+}
+
+.about a {
+    color: #efefef;
+}
+
+.about p {
+    /* border: 1px solid green; */
+    padding: 0.8rem 0 0 0;
+    margin: 0;
+}
+
+.about img {
+    /* border: 1px solid blueviolet; */
+    width: 40%;
+    height: 80%;
+}
+
+.aboutButtons {
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: space-around;
+    padding: 1.6rem 0.8rem 0.8rem;
+}
+
+/* Styles for skills section */
+.aboutSkills {
+    /* border: 1px solid green; */
+    margin: 3.2rem auto 0;
+    width: 68%;
+}
+
+.aboutSkills h5 {
+    /* border: 1px solid red; */
+    font-weight: 700;
+    margin: 0;
+}
+
+.skillsLists {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsLists ul {
+    padding: 0;
+}
+
+.skillsLists li {
+    /* border: 1px solid orange; */
+    list-style-type: none;
+    padding: 2px;
+}
+
+@media only screen and (max-width: 840px) {
+    .about {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 75%;
+    }
+
+    .aboutInfo {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about img {
+        width: 75%;
+        height: auto;
+
+    }
+
+    .about h3 {
+        margin-top: 1rem;
+    }
+
+    .about button {
+        width: 124px;
+    }
+
+    .aboutSkills {
+        width: 75%;
+    }
+
+    .aboutSkills h5 {
+        text-align: center;
+    }
+
+    .skillsLists {
+        display: grid;
+        text-align: center;
+        font-size: 0.8rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "list1 list2"
+            "list3 list4";
+    }
+
+    #list1 {
+        grid-area: list1;
+    }
+
+    #list2 {
+        grid-area: list2;
+    }
+
+    #list3 {
+        grid-area: list3;
+    }
+
+    #list4 {
+        grid-area: list4;
+    }
+}
+
+@media only screen and (min-width: 841px) and (max-width: 1280px) {
+    .about button {
+        width: 140px;
+    }
+}

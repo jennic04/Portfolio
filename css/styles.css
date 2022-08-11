@@ -1,0 +1,235 @@
+/* import other style pages */
+@import url("./homepageStyles.css");
+
+@import url("./aboutStyles.css");
+
+@import url("./doiCaseStudyStyles.css");
+
+@import url("./fcocCaseStudyStyles.css");
+
+/* Styles for whole site */
+
+/* breakpoints for media queries chosen based on https://material.io/archive/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints */
+html {
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+
+body {
+    background-color: #efefef;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #201E1F;
+    margin: 0;
+}
+
+.font2 {
+    font-family: "Cormorant", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3.052rem;
+}
+
+h2 {
+    font-size: 2.441rem;
+}
+
+h3 {
+    font-size: 1.953rem;
+}
+
+h4 {
+    font-size: 1.563rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+/* Media query for Small screen font size) */
+@media only screen and (max-width: 840px) {
+    html {
+        font-size: 80%;
+    }
+
+    h1 {
+        font-size: 1.802rem;
+    }
+
+    h2 {
+        font-size: 1.602rem;
+    }
+
+    h3 {
+        font-size: 1.424rem;
+    }
+
+    h4 {
+        font-size: 1.266rem;
+    }
+
+    h5 {
+        font-size: 1.125rem;
+    }
+}
+
+/* Media query for medium screen font size) */
+@media only screen and (min-width: 841px) and (max-width: 1280px) {
+    html {
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 2.488rem;
+    }
+
+    h2 {
+        font-size: 2.074rem;
+    }
+
+    h3 {
+        font-size: 1.728rem;
+    }
+
+    h4 {
+        font-size: 1.44rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 1px 2px 0px #0000004d, 0px 1px 3px 1px #00000026;
+}
+
+.holding {
+    text-align: center;
+}
+
+/* Styles for header & nav bar */
+header {
+    /* border: 1px solid red; */
+    font-size: 1.25rem;
+    display: flex;
+    width: 68%;
+    height: 3rem;
+    justify-content: space-between;
+    margin: 2.8rem auto 0 auto;
+    color: #201E1F;
+    /* position: sticky;
+    top: 0; */
+}
+
+nav {
+    /* border: 1px solid red; */
+    width: 34%;
+    height: 3rem;
+}
+
+/* At small and medium screens remove nav links (to be replaced with hamburger */
+@media only screen and (max-width: 1280px) {
+    nav {
+        display: none;
+    }
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 15px 0;
+    list-style: none;
+}
+
+nav a {
+    color: #201E1F;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #6A2355;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+
+header img {
+    height: 3rem;
+    width: auto;
+}
+
+/* Styles for To Top Button */
+.scrollToTop {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #6A2355;
+    display: none;
+    border-radius: 60px;
+    border: 5px solid #6A2355;
+}
+
+.scrollToTop span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #efefef;
+}
+
+.scrollToTop:hover {
+    border: 5px solid #133853;
+}
+
+
+/* Styles for footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+footer h5 {
+    /* border: 1px solid red; */
+    margin: 0 0 0.5rem 0;
+}
+
+footer a {
+    color: #201E1F;
+}
+
+footer p {
+    /* border: 1px solid red; */
+    margin: 0.5rem 0;
+}
