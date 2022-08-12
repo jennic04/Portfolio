@@ -28,6 +28,12 @@
     width: 54%;
 }
 
+@media only screen and (max-width: 840px) {
+    .homeHero div {
+        width: 85%;
+    }
+}
+
 .homeHero h1 {
     font-weight: 700;
     margin: 0 0 1.2rem 0;
@@ -109,7 +115,7 @@
     }
 } */
 
-.card {
+.caseStudyCard {
     display: flex;
     margin: 0 0 2.4rem 0;
     height: 25%;
@@ -117,7 +123,7 @@
     box-shadow: 0px 1px 2px 0px #0000004d, 0px 2px 6px 2px #00000026;
 }
 
-.card img {
+.caseStudyCard img {
     height: auto;
     width: 83%;
 }
@@ -143,6 +149,12 @@
     align-items: center;
 }
 
+.leftPhoto a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .rightDetails {
     display: flex;
     justify-content: center;
@@ -150,6 +162,10 @@
     background-color: #f7f7f7;
     width: 36%;
     border-radius: 0 10px 10px 0;
+}
+
+.rightDetails a {
+    color: #201E1F;
 }
 
 .info {
@@ -187,6 +203,12 @@
     align-items: center;
 }
 
+.rightPhoto a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .leftDetails {
     display: flex;
     justify-content: center;
@@ -194,6 +216,10 @@
     background-color: #f7f7f7;
     width: 36%;
     border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.leftDetails a {
+    color: #201E1F;
 }
 
 #card1 .leftPhoto {
@@ -213,7 +239,7 @@
 }
 
 @media only screen and (max-width: 840px) {
-    .card {
+    .caseStudyCard {
         flex-direction: column;
     }
 
@@ -251,7 +277,7 @@
         margin-bottom: 16px;
     }
 
-    .card img {
+    .caseStudyCard img {
         margin: 16px 0;
     }
 
