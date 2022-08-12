@@ -134,51 +134,73 @@ button:hover {
 header {
     /* border: 1px solid red; */
     font-size: 1.25rem;
-    display: flex;
     width: 68%;
-    height: 3rem;
-    justify-content: space-between;
     margin: 2.8rem auto 0 auto;
     color: #201E1F;
     /* position: sticky;
     top: 0; */
 }
 
+header img {
+    /* border: 1px solid green; */
+    height: 3rem;
+    width: auto;
+}
+
 nav {
-    /* border: 1px solid red; */
-    width: 34%;
+    /* border: 1px solid blue; */
+    padding: 0 !important;
     height: 3rem;
 }
 
-/* At small and medium screens remove nav links (to be replaced with hamburger */
-@media only screen and (max-width: 1280px) {
-    nav {
-        display: none;
-    }
+.navbarNav {
+    /* border: 1px solid purple; */
+    justify-content: right;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 15px 0;
-    list-style: none;
-}
-
-nav a {
+.nav-link {
+    /* border: 1px solid magenta; */
     color: #201E1F;
 }
 
-nav a:hover {
+.nav-link:hover {
     text-decoration: underline;
     text-decoration-color: #6A2355;
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
 }
 
-header img {
-    height: 3rem;
-    width: auto;
+.fa-solid {
+    color: #201E1F !important;
+}
+
+.navbar-toggler:hover {
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-link {
+        text-align: center;
+        margin: 9px;
+        padding: 0;
+    }
+
+    .nav-item {
+        background-color: #cbc5c0;
+    }
+
+    .navbarNav {
+        /* border: 1px solid gray; */
+        background-color: transparent;
+    }
+
+    .navbar-nav {
+        /* width: 40%; */
+        margin-right: 0;
+        margin-left: auto;
+        background-color: #cbc5c0;
+        box-shadow: 0px 1px 2px 0px #0000004d, 0px 1px 3px 1px #00000026;
+    }
 }
 
 /* Styles for To Top Button */

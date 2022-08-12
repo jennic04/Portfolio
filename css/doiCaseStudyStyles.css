@@ -429,6 +429,10 @@
         height: auto;
     }
 
+    .doiHead h4 {
+        width: 80%;
+    }
+
     #scroll {
         width: 44px;
         height: 44px;
@@ -477,7 +481,7 @@
     .decor {
         width: 150px;
         height: 12px;
-        background-color: #B1A79E;
+        background-color: #CBC5C0;
         margin: -14px 0 0 14px;
     }
 
@@ -591,6 +595,9 @@
 }
 
 @media only screen and (min-width: 841px) and (max-width: 1280px) {
+    .doiHead h4 {
+        width: 75%;
+    }
 
     .background,
     .research,
