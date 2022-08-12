@@ -22,6 +22,7 @@
     border: 0;
     width: 155px;
     color: #efefef;
+    /* padding: 0.5rem 1rem; */
 }
 
 .about a {
@@ -99,7 +100,7 @@
     }
 
     .about button {
-        width: 124px;
+        width: 134px;
     }
 
     .aboutSkills {

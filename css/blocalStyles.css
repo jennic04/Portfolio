@@ -1,0 +1,265 @@
+/* Styles for BLOCAL header  */
+.blocalHead div {
+    background-color: #B1A79E;
+    margin: 2.8rem 0 0 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocalHead img {
+    width: 71%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.blocalHead h1 {
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.blocalHead h4 {
+    text-align: center;
+    width: 65%;
+    margin: 0.8rem auto 0 auto;
+}
+
+/* Styles for BLOCAL Summary Section */
+.blocalSummary {
+    width: 65%;
+    margin: 3.3rem auto 0 auto;
+}
+
+.blocalSummary h5 {
+    text-decoration: underline;
+    margin: 0;
+}
+
+.blocalSummary p {
+    margin: 0.6rem 0 0 0;
+}
+
+/* Styles for BLOCAL Contents */
+.blocalContents {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 2rem 0 0 0;
+    background-color: #efefef;
+    z-index: 10;
+}
+
+.blocalContents h4 {
+    margin: 0;
+}
+
+.blocalContents ul {
+    margin: 0;
+}
+
+.blocalContents a {
+    color: #201E1F;
+}
+
+.blocalContents a:hover {
+    text-decoration: underline;
+}
+
+.blocalContents .nav-item {
+    background-color: transparent;
+}
+
+.blocalBackground,
+.blocalResearch,
+.blocalDefinition,
+.blocalIdeation,
+.blocalWireframe,
+.blocalProto,
+.blocalTesting,
+.blocalReflections {
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* Styles for BLOCAL background section */
+
+.blocalBackground p {
+    margin: 1.2rem 0 0 0;
+}
+
+/* Styles for BLOCAL Research Section */
+.blocalResearch p {
+    margin: 1.2rem 0 0 0;
+}
+
+.blocalResearch img {
+    display: block;
+    width: 38%;
+    height: auto;
+    margin: 0.8rem auto 0 auto;
+}
+
+.blocalResearch h4 {
+    margin: 1.2rem 0 0 0;
+}
+
+.blocalResearchObjectives {
+    background-color: #6A2355;
+    color: #efefef;
+    padding: 1rem;
+    margin: 1.2rem 0 0 0;
+}
+
+.blocalResearchObjectives h4 {
+    text-align: center;
+    margin: 0 0 0.4rem 0;
+}
+
+.blocalObjectivesList {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.blocalResearchObjectives ul {
+    list-style: square outside;
+    padding: 0 0 0 1.2rem;
+}
+
+#blocalSurveyImage {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: 1.2rem 0 0 0;
+}
+
+.table {
+    background-color: #6A2355;
+    color: #efefef;
+    border: none;
+    margin: 1.2rem 0 0 0;
+}
+
+td {
+    font-size: 1rem !important;
+}
+
+tr {
+    border-bottom: 1px solid #4c013a;
+}
+
+tr:hover {
+    background-color: #4c013a;
+}
+
+/* Styles for BLOCAL Definition section */
+.blocalDefinition p {
+    margin: 1.2rem 0 0 0;
+}
+
+.blocalDefinition img {
+    display: block;
+    width: 79%;
+    height: auto;
+    margin: 1.2rem auto 0 auto;
+}
+
+/* Styles for BLOCAL Ideation section */
+.blocalIdeation p {
+    margin: 1.2rem 0 0 0;
+}
+
+#blocalPriorMatrix {
+    float: right;
+    width: 48%;
+    height: auto;
+    margin: 1.2rem 0 0 1rem;
+}
+
+#blocalUserFlow {
+    display: block;
+    width: 79%;
+    height: auto;
+    margin: 1.2rem auto 0 auto;
+}
+
+#blocalUserScenario {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 1.2rem auto 0 auto;
+}
+
+/* Styles for BLOCAL Wireframing section */
+.blocalWireframe p {
+    margin: 1.2rem 0 0 0;
+}
+
+.blocalSketches {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6A2355;
+    padding: 1.2rem;
+    margin: 1.2rem 0 0 0;
+}
+
+#blocalSketch1 {
+    width: 23.8%;
+    height: auto;
+}
+
+#blocalSketch2 {
+    width: 24.9%;
+    height: auto;
+}
+
+#blocalSketch3 {
+    width: 24.5%;
+    height: auto;
+}
+
+/* Styles for BLOCAL Testing section */
+.blocalTesting p {
+    margin: 1.2rem 0 0 0;
+}
+
+#blocalTestAnalysisImage {
+    display: block;
+    width: 69%;
+    margin: 1.2rem auto 0 auto;
+}
+
+/* Styles for BLOCAL Prototype section */
+.blocalProto p {
+    margin: 1.2rem 0 0 0;
+}
+
+.blocalProtoLink {
+    background-color: #6A2355;
+    padding: 1.2rem;
+    margin: 1.2rem 0 0 0;
+}
+
+#blocalAppPrototype {
+    margin: 0;
+}
+
+#blocalAppPrototype img {
+    display: block;
+    width: 71%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#blocalAppPrototype figcaption {
+    text-align: center;
+}
+
+#blocalAppPrototype a {
+    color: #efefef;
+    font-size: 1rem;
+}
+
+/* Styles for BLOCAL Reflections section */
+.blocalReflections p {
+    margin: 1.2rem 0 0 0;
+}

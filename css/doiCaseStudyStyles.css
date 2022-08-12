@@ -51,6 +51,36 @@
     margin: 0.6rem 0 0 0;
 }
 
+/* Styles for DOI contents section */
+.doiContents {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 2rem 0 0 0;
+    background-color: #efefef;
+    z-index: 10;
+}
+
+.doiContents h4 {
+    margin: 0;
+}
+
+.doiContents ul {
+    margin: 0;
+}
+
+.doiContents a {
+    color: #201E1F;
+}
+
+.doiContents a:hover {
+    text-decoration: underline;
+}
+
+.doiContents .nav-item {
+    background-color: transparent;
+}
+
+
 .title {
     /* border: 1px solid red; */
     margin: 2rem auto 0 auto;
@@ -68,28 +98,28 @@
     margin: -26px 0 0 28px;
 }
 
-.background,
-.research,
-.definition,
-.ideation,
-.prototypes,
-.testing,
-.reflections {
+.doiBackground,
+.doiResearch,
+.doiDefinition,
+.doiIdeation,
+.doiPrototypes,
+.doiTesting,
+.doiReflections {
     width: 65%;
     margin: 0 auto;
 }
 
 /* Styles for case study background section */
-.background p {
+.doiBackground p {
     margin: 1.2rem 0 0 0;
 }
 
 /* Styles for case study research section */
-.research p {
+.doiResearch p {
     margin: 1.2rem 0 0 0;
 }
 
-.research img {
+.doiResearch img {
     display: block;
     width: 38%;
     height: auto;
@@ -166,23 +196,23 @@
     grid-area: navNotes;
 }
 
-.definition p {
+.doiDefinition p {
     margin: 1.2rem 0 0 0;
 }
 
-.definition ul {
+.doiDefinition ul {
     /* border: 1px solid red; */
     margin: 0;
     list-style: square outside;
     padding: 0 0 0 1.2rem;
 }
 
-.definition li {
+.doiDefinition li {
     padding: 0.5em 0;
 }
 
 /* Styles for case study ideation section */
-.ideation p {
+.doiIdeation p {
     margin: 1.2rem 0 0 0;
 }
 
@@ -262,7 +292,7 @@
     margin: 1.2rem 0 0 0;
 }
 
-.prototypes p {
+.doiPrototypes p {
     margin: 1.2rem 0 0 0;
 }
 
@@ -338,7 +368,7 @@
 }
 
 /* Styles for case study testing section */
-.testing p {
+.doiTesting p {
     margin: 1.2rem 0 0 0;
 }
 
@@ -403,18 +433,18 @@
 }
 
 /* Styles for case study reflections section */
-.reflections p {
+.doiReflections p {
     margin: 1.2rem 0 0 0;
 }
 
-.reflections ul {
+.doiReflections ul {
     /* border: 1px solid red; */
     margin: 0;
     list-style: square outside;
     padding: 0 0 0 1.2rem;
 }
 
-.reflections li {
+.doiReflections li {
     padding: 0.5em 0;
 }
 
@@ -485,18 +515,18 @@
         margin: -14px 0 0 14px;
     }
 
-    .background,
-    .research,
-    .definition,
-    .ideation,
-    .prototypes,
-    .testing,
-    .reflections {
+    .doiBackground,
+    .doiResearch,
+    .doiDefinition,
+    .doiIdeation,
+    .doiPrototypes,
+    .doiTesting,
+    .doiReflections {
         width: 80%;
         margin: 0 auto;
     }
 
-    .research img {
+    .doiResearch img {
         width: 80%;
         height: auto;
     }
@@ -599,13 +629,13 @@
         width: 75%;
     }
 
-    .background,
-    .research,
-    .definition,
-    .ideation,
-    .prototypes,
-    .testing,
-    .reflections {
+    .doiBackground,
+    .doiResearch,
+    .doiDefinition,
+    .doiIdeation,
+    .doiPrototypes,
+    .doiTesting,
+    .doiReflections {
         width: 75%;
         margin: 0 auto;
     }

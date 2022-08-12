@@ -7,6 +7,8 @@
 
 @import url("./fcocCaseStudyStyles.css");
 
+@import url("./blocalStyles.css");
+
 /* Styles for whole site */
 
 /* breakpoints for media queries chosen based on https://material.io/archive/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints */
