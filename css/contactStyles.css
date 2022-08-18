@@ -1,0 +1,44 @@
+/* Styles for Contact page */
+.contactTitle {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+form {
+    width: 60%;
+    margin: 2rem auto 0 auto;
+}
+
+@media only screen and (max-width: 840px) {
+    form {
+        width: 80%;
+    }
+}
+
+#contactFormSubmit {
+    display: block;
+    color: #efefef;
+    background-color: #133853;
+    margin: 0 auto;
+    border: none;
+}
+
+label {
+    font-family: "cormorant", serif;
+    font-size: 0.9rem;
+    margin: 0 0 0 5px;
+    font-weight: 500;
+}
+
+.contactSuccessMessage {
+    text-align: center;
+}
+
+.contactSuccessText {
+    text-align: center;
+}
+
+.contactSuccessMessage a {
+    color: #6A2355;
+    text-decoration: underline;
+}

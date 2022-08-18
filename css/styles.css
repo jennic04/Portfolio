@@ -9,6 +9,8 @@
 
 @import url("./blocalStyles.css");
 
+@import url("./contactStyles.css");
+
 /* Styles for whole site */
 
 /* breakpoints for media queries chosen based on https://material.io/archive/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints */
@@ -235,6 +237,38 @@ nav {
     border: 5px solid #133853;
 }
 
+/* Styles for case study bottom links */
+.caseStudyLinks {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto 0 auto;
+}
+
+.fa-angle-right,
+.fa-angle-left {
+    margin: 5px;
+}
+
+.caseStudyLinks a {
+    color: #201E1F;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 840px) {
+    .caseStudyLinks {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .backCaseStudyLink {
+        margin: 1rem;
+    }
+
+    .forwardCaseStudyLink {
+        margin: 1rem;
+    }
+}
 
 /* Styles for footer */
 footer {

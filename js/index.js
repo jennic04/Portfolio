@@ -1,18 +1,4 @@
-$(document).ready(() => {
-    if ($(this).width() <= 768) {
-        $('#mainNavbar').hide();
-    }
-    $(window).resize(() => {
-        if ($(this).width() <= 768) {
-            $('#mainNavbar').hide();
-        } else {
-            $('#mainNavbar').show();
-        }
-    });
-    $('#hamburger').click(() => {
-        $('#mainNavbar').toggle(500);
-    });
-});
+// To top button on case study pages
 
 $(document).ready(function () {
     $(window).on("scroll", function () {

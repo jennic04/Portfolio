@@ -60,38 +60,10 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <h3 class="font2 contactTitle">I'd love to chat!</h3>
-        <form action="https://formsubmit.co/jennic04@gmail.com" method="POST">
-
-            <!-- add honeypot -->
-            <input type="text" name="_honey" style="display:none">
-            <!-- disable captcha -->
-            <input type="hidden" name="_captcha" value="false">
-            <!-- add success page -->
-            <input type="hidden" name="_next" value="https://jennic04.github.io/Portfolio//contactSuccess.html">
-
-            <div class="form-group">
-                <label for="contactFormName">Name</label>
-                <input type="text" class="form-control" name="name" id="contactFormName" placeholder="Your name">
-            </div>
-            <div class="form-group">
-                <label for="contactFormEmail">Email Address</label>
-                <input type="email" class="form-control" name="email" id="contactFormEmail"
-                    placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-                <label for="contactFormSubject">Subject</label>
-                <input type="text" class="form-control" name="subject" id="contactFormSubject"
-                    placeholder="Message subject">
-            </div>
-            <div class="form-group">
-                <label for="contactFormMessage">Message</label>
-                <textarea class="form-control" id="contactFormMessage" name="message" placeholder="How can I help you?"
-                    rows="3"></textarea>
-            </div>
-            <button id="contactFormSubmit">Submit</button>
-        </form>
+    <div class="container contactSuccessMessage">
+        <h3 class="font2 contactTitle">Thanks for getting touch!</h3>
+        <p class="contactSuccessText">I will get back to you as soon as possible.</p>
+        <a href="index.html">Return Home</a>
     </div>
 
     <footer>

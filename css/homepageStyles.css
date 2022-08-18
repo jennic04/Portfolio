@@ -97,9 +97,12 @@
     align-items: center;
     margin: 3.6rem auto 0;
     width: 68%;
-    height: 1600px;
+    height: 1200px;
 }
 
+#card4 {
+    display: none;
+}
 
 @media only screen and (max-width: 840px) {
     .projects {
@@ -118,7 +121,7 @@
 .caseStudyCard {
     display: flex;
     margin: 0 0 2.4rem 0;
-    height: 25%;
+    height: 30%;
     border-radius: 0.5rem;
     box-shadow: 0px 1px 2px 0px #0000004d, 0px 2px 6px 2px #00000026;
 }
