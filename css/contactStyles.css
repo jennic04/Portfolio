@@ -42,3 +42,19 @@ label {
     color: #6A2355;
     text-decoration: underline;
 }
+
+#contactFormSubmit {
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.pending {
+    font-size: 0;
+    animation: rotate 1.4s ease .5s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(360deg);
+    }
+}

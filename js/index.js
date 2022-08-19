@@ -14,3 +14,12 @@ $(document).ready(function () {
         return false;
     });
 });
+
+// Contact form submitted animation
+$(document).ready(function () {
+
+    $("#contactFormSubmit").click(function () {
+        $(this).addClass("pending");
+    })
+
+});
